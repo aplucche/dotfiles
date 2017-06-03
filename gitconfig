@@ -3,3 +3,4 @@
     name = aplucche
 [core]
     editor = vim
+  	excludesfile = $HOME/.gitignore_global
