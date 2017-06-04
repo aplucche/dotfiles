@@ -1,5 +1,5 @@
 set nocompatible                  " disable vi compatibility mode
-filetype indent on                " filetype detection[on] plugin[on]
+filetype plugin indent on                " filetype detection[on] plugin[on]
 set t_Co=256                      " enable 256-color mode
 syntax enable                     " enable syntax highlighting
 set ruler                         " show file stats
@@ -18,3 +18,6 @@ set encoding=utf-8                " set default encoding
 
 " python specific tab size
 autocmd Filetype python setlocal et ts=4 sw=4 sts=4
+
+" pathogen
+execute pathogen#infect()
